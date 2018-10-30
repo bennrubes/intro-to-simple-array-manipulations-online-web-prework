@@ -4,8 +4,10 @@ def using_push(array, string)
   array.push(next_element)
 end
 
-def using_unshift
-
+def using_unshift(array, string)
+  array
+  first_element = string
+  array.unshift(first_element)
 end
 
 def using_pop
